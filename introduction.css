@@ -1,3 +1,25 @@
-p {
-    color: red;
+* {
+    box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.column.side {
+    width: 25%;
+}
+
+.column.middle {
+    width: 45%;
+}
+
+p.clear {
+    clear: both;
+}
+
